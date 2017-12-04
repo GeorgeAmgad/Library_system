@@ -1,6 +1,17 @@
 # depslib dependency file v1.0
-1511821705 source:c:\users\georg\desktop\library_system\main.c
+1512348595 source:c:\users\georg\desktop\library_system\main.c
+	"global_variables.h"
+
+1512348580 source:c:\users\georg\desktop\library_system\functions.c
+	"global_variables.h"
+
+1512344482 c:\users\georg\desktop\library_system\global_variables.h
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
+	<string.h>
+
+1511928541 c:\users\georg\desktop\library_system\function_declaration.h
+
+1512332237 c:\users\georg\desktop\library_system\structs.h
 

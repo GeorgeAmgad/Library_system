@@ -1,14 +1,23 @@
+#ifndef GLOBAL_VAR
+#define GLOBAL_VAR
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <string.h>
 
 typedef struct{  //date
     int day;
     int month;
     int year;
     }date;
+
 typedef struct{  //address
     char build[60];
     char street[60];
     char city[60];
     }address;
+
 typedef struct{  //book
     char title[60];
     char author[60];
@@ -17,8 +26,10 @@ typedef struct{  //book
     date dop;
     int noc; //number of copies
     int ca_noc; //currently available number of copies
+    char category[60];
 
 }book;
+
 typedef struct{  //user
     char first[30];
     char last [30];
@@ -28,22 +39,30 @@ typedef struct{  //user
     int age;
     char email[60];
     }user;
+
 typedef struct{  //borrow
     book bo_book;
     user bo_user;
     date date_bo;
     date due;
     date date_re;
-
     } borrow;
+
+
 
 book books[100];
 user users[100];
 borrow borrows[100];
 
-int fb = 1; //flag for books
-int fu = 1; //flag for users
-int fbo = 1; //flag for borrows
+int fb; //flag for books
+int fu; //flag for users
+int fbo; //flag for borrows
 
-char singleline[2048]; //string for fgets
-int sls = 2048; //size of single line
+char singleline[2000]; //string for fgets
+int sls; //size of single line
+
+void read_books();
+void read_users();
+void read_borrows();
+
+#endif // GLOBAL_VAR
