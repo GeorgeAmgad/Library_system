@@ -5,6 +5,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
+#include<conio.h>
+#include<windows.h>
+char choice;
 
 typedef struct{  //date
     int day;
@@ -13,7 +16,7 @@ typedef struct{  //date
     }date;
 
 typedef struct{  //address
-    char build[60];
+    int build;
     char street[60];
     char city[60];
     }address;
