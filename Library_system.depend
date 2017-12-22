@@ -1,11 +1,24 @@
 # depslib dependency file v1.0
-1513808926 source:c:\users\georg\desktop\library_system\main.c
+1512348595 source:c:\users\georg\desktop\library_system\main.c
 	"global_variables.h"
 
-1513808852 source:c:\users\georg\desktop\library_system\functions.c
+1512348580 source:c:\users\georg\desktop\library_system\functions.c
 	"global_variables.h"
 
-1513806967 c:\users\georg\desktop\library_system\global_variables.h
+1512344482 c:\users\georg\desktop\library_system\global_variables.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
+1511928541 c:\users\georg\desktop\library_system\function_declaration.h
+
+1512332237 c:\users\georg\desktop\library_system\structs.h
+
+1513680539 source:c:\users\bishoy\downloads\library_system-master\functions.c
+	"global_variables.h"
+
+1513680505 c:\users\bishoy\downloads\library_system-master\global_variables.h
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
@@ -13,7 +26,20 @@
 	<conio.h>
 	<windows.h>
 
-1511928541 c:\users\georg\desktop\library_system\function_declaration.h
+1513680351 source:c:\users\bishoy\downloads\library_system-master\main.c
+	"global_variables.h"
 
-1512332237 c:\users\georg\desktop\library_system\structs.h
+1513949874 source:c:\users\bishoy\desktop\library_system-master\functions.c
+	"global_variables.h"
+
+1513934870 c:\users\bishoy\desktop\library_system-master\global_variables.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<conio.h>
+	<windows.h>
+
+1513944392 source:c:\users\bishoy\desktop\library_system-master\main.c
+	"global_variables.h"
 
