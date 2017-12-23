@@ -31,7 +31,6 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="function_declaration.h" />
 		<Unit filename="functions.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -39,7 +38,9 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="structs.h" />
+		<Unit filename="sub_menus.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />

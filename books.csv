@@ -1,1 +1,6 @@
-
+title,author,publisher,isbn,date of publication,noc,ca_noc,category
+harry potter coll,j.k.rowling,h.o.b,9800,24/6/1998,2,1,sequels
+how to program,george amgad,CCE,9810,12/11/2017,6,5,programming
+the hobbit vol.1,J.R.R.tolkien,A&U,9820,1/4/1989,3,2,novel
+game of thrones,George martin,h.o.b,9821,23/6/2001,4,4,novel
+lord of the rings,J.R.R.tolkien,A&U,9822,28/11/2000,1,0,novel
